@@ -2,8 +2,10 @@ import React from 'react';
 
 
 // jsx
-const List = () => {
-    return <div > < h1 > Todo List < /h1></div >
+const List = (props) => {
+    
+    console.log(props);
+    return <div > < ul > unordered list </ul></div >
 };
 
 export default List;
