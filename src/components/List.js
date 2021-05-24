@@ -5,6 +5,7 @@ import React from 'react';
 const List = (props) => {
     
     console.log(props);
+    const {todos}=props;
     return <div > < ul > unordered list </ul></div >
 };
 
