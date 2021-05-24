@@ -3,7 +3,7 @@ import React from 'react';
 
 // jsx
 const ListItem = ({todo,id}) => {
-    return < li >{id}-{todo}</li>
+    return < li >{todo}</li>
 };
 
 export default ListItem;
